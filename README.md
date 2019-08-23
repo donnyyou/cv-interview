@@ -1,5 +1,6 @@
 ### 计算机视觉岗常见面试题
 #### 问题1：Softmax+Cross Entropy反向求导
+[推导过程](https://blog.csdn.net/jiajunlee/article/details/79665062)
 
 #### 问题2：Conv+BN加速策略
 
