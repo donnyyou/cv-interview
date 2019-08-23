@@ -18,6 +18,22 @@
 
 
 #### 问题3：Conv+BN加速策略
+在inference阶段，可以将BN层的参数和在之前的Linear或Conv层中，加速推断时间（因为二者都是线性变换）。
+```python
+w = module.weight.data
+b = module.bias.data      # conv的bias可以用全0代替
+ws = [1] * len(w.size())
+ws[0] = w.size()[0]
+
+invstd = bn_module.running_var.clone().add_(bn_module.eps).pow_(-0.5)
+w.mul_(invstd.view(*ws).expand_as(w))
+b.add_(-bn_module.running_mean).mul_(invstd)
+
+if bn_module.affine:
+    w.mul_(bn_module.weight.data.view(*ws).expand_as(w))
+    b.mul_(bn_module.weight.data).add_(bn_module.bias.data)
+
+```
 
 #### 问题4：常见的模型加速方法
 
