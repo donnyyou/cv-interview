@@ -62,7 +62,7 @@ if bn_module.affine:
 
 #### 问题16: 卷积底层如何实现的
 
-#### 问题17: mini-Batch SGD相对于GD有什么有点
+#### 问题17: mini-Batch SGD相对于GD有什么优点
 
 #### 问题18: DCN比普通卷积多了多少计算量
 
