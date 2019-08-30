@@ -77,3 +77,5 @@ if bn_module.affine:
 #### 问题23：介绍带孔卷积以及其优势与劣势
 
 #### 问题24：Non-local模块与Self-attention的之间的关系与区别
+
+#### 问题25：PyTorch和TensorFlow的运行原理
