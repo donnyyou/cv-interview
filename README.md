@@ -80,5 +80,5 @@ if bn_module.affine:
 
 #### 问题25：PyTorch和TensorFlow的运行原理
 
-#### 问题26:卷积的实现原理以及如何快速高效实现局部weight sharing的卷积操作方式
+#### 问题26：卷积的实现原理以及如何快速高效实现局部weight sharing的卷积操作方式
 
