@@ -82,3 +82,7 @@ if bn_module.affine:
 
 #### 问题26：卷积的实现原理以及如何快速高效实现局部weight sharing的卷积操作方式
 
+#### 问题27：详解几种优化算法
+
+#### 问题28：BN在training和inference的时候有什么区别
+
