@@ -101,5 +101,5 @@ if bn_module.affine:
 
 #### 问题30：CycleGAN的生成效果为啥一般都是位置不变纹理变化，为啥不能产生不同位置的生成效果
 
-
+#### 问题31：L2 regularization和Weight decay
 
