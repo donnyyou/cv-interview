@@ -1,7 +1,7 @@
 ### 计算机视觉岗常见面试题
 
 #### 问题1：Softmax+Cross Entropy反向求导
-[推导过程](https://blog.csdn.net/jiajunlee/article/details/79665062)
+![CE](./img/ce.png)
 
 #### 问题2：BatchNorm层的详细解读(具体可以参考之后出版的百面深度学习2333)
   + ![BatchNorm](./img/151566545899_.pic.jpg)
