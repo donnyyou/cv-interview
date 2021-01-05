@@ -106,3 +106,5 @@ if bn_module.affine:
 
 #### 问题31：L2 regularization和Weight decay
 
+#### 问题32：深度学习中的batch的大小对学习效果有何影响？
+
